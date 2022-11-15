@@ -5,8 +5,9 @@ html {
 body {
     background: url('/media/sample_shop.jpg') no-repeat center center fixed;
     background-size: cover;
+    height: calc(100vh - 164px);
     color: #555;
-    font-family: Roboto;
+    font-family: 'Lato';
 }
 
 /* from Bulma */
