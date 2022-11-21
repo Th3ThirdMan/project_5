@@ -10,7 +10,6 @@ body {
     font-family: 'Roboto';
 }
 
-/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -75,16 +74,16 @@ body {
     z-index: -1;
 }
 
-/* -------------------------------- Media Queries */
+/* Media Queries */
 
-/* Slightly larger container on xl screens */
+/* Container on XL screens */
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
 }
 
-/* fixed top navbar only on medium and up */
+/* Fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -96,5 +95,15 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 100px;
+    }
+
+    body {
+        height: calc(100vh - 100px);
     }
 }
