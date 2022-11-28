@@ -102,6 +102,21 @@ body {
     cursor: pointer;
 }
 
+.message-container {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 3px;
+}
+
 
 /* Media Queries */
 
